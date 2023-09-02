@@ -1,0 +1,7 @@
+packaging== 23.1
+Pillow== 10.0.0
+pip==23.2.1
+pyperclip==1.8.2
+pytesseract==0.3.10
+setuptools==65.5.0
+tk==0.1.0
