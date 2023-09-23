@@ -1,11 +1,13 @@
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk, ImageDraw
 import pytesseract
 import pyperclip
+import cv2
 import os
 import numpy as np
+from PIL import ImageGrab
 
 class CharacterSelectionApp:
     def __init__(self, root):
@@ -24,6 +26,8 @@ class CharacterSelectionApp:
         self.canvas.pack()
 
         # Create buttons
+        self.load_button = tk.Button(root, text="Load Image", command=self.load_image_files)
+        self.load_button.pack(side='left')
         self.extract_button = tk.Button(root, text="Extract and Copy", command=self.extract_and_copy)
         self.extract_button.pack(side='left')
 
