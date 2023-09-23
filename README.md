@@ -6,8 +6,7 @@ pip install -r requirements.txt
 ### To run
 python tha_ocr.py
 
-09/23/2023
-
+## 09/23/2023
 ### Update list:
 - paning canvas using up, down, right, left arrows
 - next image function
@@ -15,7 +14,6 @@ python tha_ocr.py
 - remove unused functions
 - users don't need to choose the image everytime clicking on "Next image", it works automatically.
 - Once program started, user just select the folder of image with {".png", ".jpg", ".jpeg", ".bmp} these file extensions, otherwise, they will be ignored (not load when use 'next image' function)
-  
 ### Basic instruction:
 1. load the initialize image folder
 2. select lang need to extract
